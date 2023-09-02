@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --inter: 'Inter', sans-serif;
+    --colorone: #5CA0FA;
+}
+
+.logo {
+    margin-right: 128px;
+    margin-left: 72px;
+    width: 47%;
+    height: auto;
+}
+
+.container-fluid {
+    margin-top: 18px;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .container-fluid {
+        margin-top: 0;
+    }
+}
+
+.navbar {
+    font-family: var(--poppins);
+    font-size: 1.15rem;
+}
+
+.nav-item {
+    margin-right: 28px;
+}
+
+/* Home CSS */
+.home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 208px;
+}
+
+.left-home {
+    display: grid;
+    justify-content: center;
+    margin-top: auto;
+    gap: 56px;
+}
+
+.top-hc {
+    display: grid;
+    gap: 38px;
+}
+
+.top-lh h1 {
+    font-family: var(--poppins);
+    font-size: 3.4vw;
+    font-weight: 600;
+    color: #0B1F32;
+}
+
+.top-lh h1 span {
+    color: var(--colorone);
+}
+
+.bottom-lh {
+    display: flex;
+    gap: 24px;
+}
+
+.right-blh {
+    display: grid;
+    gap: 28px;
+}
+
+.desc-rblh {
+    font-family: var(--inter);
+    font-size: 0.85vw;
+    font-weight: 500;
+    color: #6D7984;
+}
+
+.button-rblh {
+    width: 8.5vw; 
+    height: 3em; 
+    background-color: var(--colorone);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+
+.button-rblh a {
+    color: white;
+    text-decoration: none;
+    font-family: var(--poppins);
+    font-size: 0.75vw;
+    font-weight: 500;
+}
+
+
+
+
+.carousel-caption {
+    margin-left: -32px;
+    margin-bottom: 48px;
+}
+
+.carousel-caption h1 {
+    font-family: var(--poppins);
+    font-weight: 500;
+    font-size: 1.5em;
+} 
+
+.carousel-caption p {
+    font-family: var(--inter);
+    font-weight: 400;
+    font-size: 1em;
+} 
+
+.carousel-indicators {
+    list-style: none;
+}
