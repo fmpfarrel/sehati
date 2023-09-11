@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="asset/favicon.ico">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg custom-navbar">
@@ -45,14 +46,17 @@
           <div class="row justify-content-center align-items-center pt-4">
             
             <div class="col-md-6">
-                  <h1 class="display-3 fw-semibold mb-5">Consult your and<br class="d-none d-lg-block"> your family’s health<br class="d-none d-lg-block"> at <span id="sehati"></span></h1>
+                  <h1 class="display-3 fw-semibold mb-5">Consult your and<br class="d-none d-lg-block"> your family’s health<br class="d-none d-lg-block"> <br class="d-md-block d-lg-none">at <span id="sehati"></span></h1>
                   <div class="d-flex">
                     <div class="arrow d-none d-lg-block" style="margin-right: 18px;">
                       <img src="asset/arrow.png">
                     </div>
                     <div class="content-home">
                       <p class="fw-normal text-muted mb-5 d-none d-lg-block" style="width: 400px;">Discover your optimal health with one click! Explore our website for reliable health information, healthy lifestyle tips, and the latest medical resources.</p>
-                      <button class="btn btn-primary shadow mb-5">Get Started -></button>
+                      <div class="custom-button-container mb-5">
+                        <button class="custom-button shadow">Get Started -></button>
+                        <div class="custom-wave"></div>
+                      </div>
                     </div>
                   </div>
                   <div class="d-flex flex-column flex-lg-row align-items-center mt-3">
@@ -143,8 +147,9 @@
                   </div>
                 </div>
               </div>
-              <div class="buttons">
-                <a href="#" class="btn btn-primary shadow">Join Now -></a>
+              <div class="custom-button-container">
+                <a href="about.html"><button class="custom-button shadow">Get Started -></button></a>
+                <div class="custom-wave"></div>
               </div>
             </div>
           </div>
@@ -229,7 +234,7 @@
             </div>
           </div>
           <div class="btn-podcast mt-3" style="display: flex; justify-content: flex-end;">
-            <button class="btn btn-primary shadow">View More -></button>
+            <button class="btn btn-primary shadow"  style="background-color: #5CA0FA; border: none;">View More -></button>
         </div>
         
         </div>
@@ -244,8 +249,9 @@
                 <h1 class="display-4 fw-semibold mb-5">Come in for an easier<br>medical consultation</h1>
                 <p class="fw-normal text-muted mb-5 d-none d-lg-block">Kami mengundang Anda untuk menjadi bagian dari forum kesehatan aktif kami dan peduli dengan kesehatan. Di sini, Anda akan menemukan tempat untuk berbagi pengalaman, bertanya tentang masalah kesehatan Anda, dan belajar dari orang-orang yang memiliki minat yang sama. Dengan berpartisipasi dalam diskusi kami, Anda dapat memperoleh wawasan.</p>
               </div>
-              <div class="buttons">
-                <a href="#" class="btn btn-primary shadow">Join Now -></a>
+              <div class="custom-button-container">
+                <a href="about.html"><button class="custom-button shadow">Join Now -></button></a>
+                <div class="custom-wave"></div>
               </div>
             </div>
             <!--Image-->
@@ -450,6 +456,7 @@
             // Memulai animasi dengan mengetik
             typeText(0);
         });
+
       </script>
       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
