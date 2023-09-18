@@ -56,6 +56,14 @@
     color: var(--colorone);
 }
 
+.custom-button {
+    font-family: var(--inter);
+}
+
+.custom-font {
+    font-family: var(--inter);
+}
+
 
 /* About */
 #about {
@@ -224,7 +232,160 @@
     background-color: #0056b3;
 }
 
-/*About Us Page*/
 
+
+
+/*About Us Page*/
+#slider h5, #slider h1, #aboutus h1 {
+    font-family: var(--poppins);
+}
+
+#slider .card {
+
+box-shadow: 0px 8px 12px 0px rgba(70, 76, 136, 0.15);
+}
+
+#slider h4 {
+    font-family: var(--poppins);
+}
+
+#slider .custom-color {
+    background: linear-gradient(to bottom, #0C2950, #0C2950 60%, white 40%);
+    border-radius: 10px 0px 0px 10px;
+}
   
 
+
+.arrow button {
+    width: 64px;
+    height: 64px;
+    background-color: #3B3435;
+    border-style: none;
+    color: #FFFFFF;
+    font-size: 20px;
+} 
+
+
+
+
+
+
+
+/*Podcast Page*/
+#back a {
+    font-family: var(--inter);
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.coming-soon {
+    font-family: var(--poppins);
+    color: #5CA0FA;
+}
+
+
+.custom-container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.jumbotron {
+    background-color: var(--colorone);
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.jumbotron h1 {
+    font-family: var(--poppins);
+    font-size: 2.5rem;
+}
+
+.jumbotron p {
+    font-family: var(--inter);
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.countdown {
+    font-family: var(--poppins);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #ffc107; 
+}
+
+
+.timeline-steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.timeline-steps .timeline-step {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 1rem
+}
+
+@media (min-width:768px) {
+    .timeline-steps .timeline-step:not(:last-child):after {
+        content: "";
+        display: block;
+        border-top: .25rem dotted #3b82f6;
+        width: 3.46rem;
+        position: absolute;
+        left: 7.5rem;
+        top: .3125rem
+    }
+    .timeline-steps .timeline-step:not(:first-child):before {
+        content: "";
+        display: block;
+        border-top: .25rem dotted #3b82f6;
+        width: 3.8125rem;
+        position: absolute;
+        right: 7.5rem;
+        top: .3125rem
+    }
+}
+
+.timeline-steps .timeline-content {
+    width: 10rem;
+    text-align: center
+}
+
+.timeline-steps .timeline-content .inner-circle {
+    border-radius: 1.5rem;
+    height: 1rem;
+    width: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3b82f6
+}
+
+.timeline-steps .timeline-content .inner-circle:before {
+    content: "";
+    background-color: #3b82f6;
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    min-width: 3rem;
+    border-radius: 6.25rem;
+    opacity: .5
+}
+
+#acr h2 {
+    font-family: var(--poppins);
+}
+
+#acr p {
+    font-family: var(--inter);
+}
