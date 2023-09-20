@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+     scroll-behavior: smooth;
+}
+
 :root {
     --poppins: 'Poppins', sans-serif;
     --inter: 'Inter', sans-serif;
@@ -36,7 +40,16 @@
 .navbar {
     font-family: var(--poppins);
     font-size: 1.15rem;
+    font-weight: 500;
 }
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(17px); 
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: none;
+}
+
 
 .nav-item {
     margin-right: 28px;
